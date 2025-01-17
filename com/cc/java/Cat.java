@@ -45,6 +45,7 @@ public class Cat {
         return this;
     }
      
+    // Berechtigung (Getter Name)
     private boolean getPermission(){
         return true;
         // return false;
