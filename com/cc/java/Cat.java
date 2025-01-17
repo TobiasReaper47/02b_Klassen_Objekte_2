@@ -14,12 +14,16 @@ public class Cat {
         this.age = age;
     }
    
-    
+
     // Getter
     public String getFirstName() {
+        if (getPermission()) {
         return firstName;
+        } else {
+    
+        return "Sorry, no permission!";
     }
-
+    }
 
     public String getFurColor() {
         return furColor;
@@ -38,7 +42,13 @@ public class Cat {
 
 
     public Cat getInstanceVariable(){
-       return this;
+        return this;
     }
      
+    private boolean getPermission(){
+        return true;
+        // return false;
+    }
+
+
 }
