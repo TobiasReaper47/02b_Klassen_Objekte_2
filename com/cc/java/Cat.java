@@ -14,7 +14,8 @@ public class Cat {
         this.age = age;
     }
    
-
+    
+    // Getter
     public String getFirstName() {
         return firstName;
     }
@@ -30,15 +31,14 @@ public class Cat {
     }
 
 
-
-
-
+    // Setter
+    public void setAge(int age) {
+        this.age = age;
+    }
 
 
     public Cat getInstanceVariable(){
        return this;
     }
-    
-
-
+     
 }
