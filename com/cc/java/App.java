@@ -24,6 +24,7 @@ public class App {
         // output("Blick von aussen: " + cat2);
         // output("Blick von innen: " + cat2.getInstanceVariable());
 
+        // Werte zuweisen
         cat2.firstName = "Alonzo";
         cat2.furColor = "grey";
         cat2.age = 58;
