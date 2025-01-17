@@ -34,6 +34,8 @@ public class App {
         // cat.furColor = "grey";
         // cat.age = 58;
 
+        cat2.setAge(59); //Setter
+
         // Werte ausgeben
         output(cat2.getFirstName());
         output(cat2.getFurColor());
