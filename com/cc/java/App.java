@@ -15,10 +15,11 @@ public class App {
         // cat.furColor = "white";
         // cat.age = 29;
 
+        
         // Werte ausgeben
-        output(cat.firstName);
-        output(cat.furColor);
-        output(Integer.toString(cat.age));  // EXPLIZITE Typkonvertierung
+        output(cat.getFirstName());
+        output(cat.getFurColor());
+        output(Integer.toString(cat.getAge()));  // EXPLIZITE Typkonvertierung
 
         output("-----------------------");
 
@@ -34,9 +35,9 @@ public class App {
         // cat.age = 58;
 
         // Werte ausgeben
-        output(cat2.firstName);
-        output(cat2.furColor);
-        output(Integer.toString(cat2.age));
+        output(cat2.getFirstName());
+        output(cat2.getFurColor());
+        output(Integer.toString(cat2.getAge()));
 
     }
 
